@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Font Awesome Link -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <!-- Google Font link -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bulma Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Sharing</title>
+  </head>
+  <body>
+    <!-- Navber -->
+    <nav
+      class="navbar has-shadow is-white myNav"
+      role="navigation"
+      aria-label="main navigation"
+    >
+      <div class="navbar-brand">
+        <a class="navbar-item" href="#">
+          <img src="./img/logo.jpg" height="50" width="25" />
+          <a class="navbar-item is-size-3">developedByAM</a>
+        </a>
+
+        <a
+          role="button"
+          class="navbar-burger burger"
+          id="ham__menu"
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="navbarBasicExample"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div class="navbar-menu" id="ham__items">
+        <div class="navbar-end">
+          <a class="navbar-item"> Home </a>
+          <a class="navbar-item"> About Us </a>
+          <a class="navbar-item"> Contact </a>
+          <div class="navbar-item">
+            <div class="buttons myNav__button">
+              <a class="button">
+                <span class="icon is-small">
+                  <i class="fa fa-google" aria-hidden="true"></i>
+                </span>
+                <strong>Sign up</strong>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Homepage -->
+
+    <figure class="banner">
+      <img src="./img/undraw_web_development_w2vv.svg" />
+      <div class="banner__text">
+        <h1 class="title is-1">Things you never know you wanted to read</h1>
+      </div>
+    </figure>
+
+    <!-- Cards secton -->
+    <div class="container">
+      <div class="card">
+        <div class="card__image">
+          <img src="./img/mirzapur.jpg" alt="img" />
+        </div>
+
+        <div class="card__content">
+          <div class="blog__details">
+            <div class="icon__text">
+              <span class="icon"
+                ><i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+              </span>
+              <span class="text">09/05/2020</span>
+            </div>
+            <div class="icon__text">
+              <span class="icon"
+                ><i class="fa fa-heart-o" aria-hidden="true"></i
+              ></span>
+              <span class="text">2.9k</span>
+            </div>
+            <div class="icon__text">
+              <span class="icon"
+                ><i class="fa fa-user-circle" aria-hidden="true"></i
+              ></span>
+              <span class="text">AkshayMore</span>
+            </div>
+          </div>
+
+          <h2 class="blog__title">MIRZAPUR Season 2 - WHY THE HYPE?🔥</h2>
+
+          <p class="excerpt">
+            The popular web series, starring Pankaj Tripathi, Divyenndu, Rasika
+            Dugal, Ali Fazal and Shweta Tripathi is back on Amazon Prime Video.
+            By the end of the first season of the blood-splattered Mirzapur
+            (2018), the corpses had piled up. Among the victims was one of two
+            brothers – the wrong one....
+          </p>
+
+          <div class="blog__cda">
+            <a class="button">Read more</a>
+
+            <button class="share__button">
+              <i class="fa fa-share-alt" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- card2 -->
+      <div class="card">
+        <div class="card__image">
+          <img src="./img/whatabout.jpg" alt="img" />
+        </div>
+
+        <div class="card__content">
+          <div class="blog__details">
+            <div class="icon__text">
+              <span class="icon"
+                ><i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+              </span>
+              <span class="text">20/10/2020</span>
+            </div>
+            <div class="icon__text">
+              <span class="icon"
+                ><i class="fa fa-heart-o" aria-hidden="true"></i
+              ></span>
+              <span class="text">123</span>
+            </div>
+            <div class="icon__text">
+              <span class="icon"
+                ><i class="fa fa-user-circle" aria-hidden="true"></i
+              ></span>
+              <span class="text">HardikYewale</span>
+            </div>
+          </div>
+
+          <h2 class="blog__title">The politics of whataboutism</h2>
+
+          <p class="excerpt">
+            “Whataboutism” is a rhetorical manouvre often used by those seeking
+            to avoid the topic at hand, and can frequently be seen in the
+            comments section of articles posted on social media. And while the
+            use of the infantile technique is common on platforms such as
+            Facebook, it’s also being used in high places to avoid uncomfortable
+            subjects.....
+          </p>
+
+          <div class="blog__cda">
+            <a class="button">Read more</a>
+
+            <button class="share__button">
+              <i class="fa fa-share-alt" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- card3 -->
+      <div class="card">
+        <div class="card__image">
+          <img src="./img/godcomplex.jpg" alt="img" />
+        </div>
+
+        <div class="card__content">
+          <div class="blog__details">
+            <div class="icon__text">
+              <span class="icon"
+                ><i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+              </span>
+              <span class="text">29/10/2020</span>
+            </div>
+            <div class="icon__text">
+              <span class="icon"
+                ><i class="fa fa-heart-o" aria-hidden="true"></i
+              ></span>
+              <span class="text">1.3k</span>
+            </div>
+            <div class="icon__text">
+              <span class="icon"
+                ><i class="fa fa-user-circle" aria-hidden="true"></i
+              ></span>
+              <span class="text">im_Pd</span>
+            </div>
+          </div>
+
+          <h2 class="blog__title">problem of "God Complex"</h2>
+
+          <p class="excerpt">
+            If there’s one complaint that employees have about their tech
+            startup leader, Mark, it’s that he has a raging God complex.
+            Seriously—it’s become the butt of many jokes. His team members vent
+            about his perceived superiority at company happy hours and mutter
+            comments under their breath around the break room coffee pot.....
+          </p>
+
+          <div class="blog__cda">
+            <a class="button">Read more</a>
+
+            <button class="share__button">
+              <i class="fa fa-share-alt" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- card4 -->
+      <div class="card">
+        <div class="card__image">
+          <img src="./img/main2.jpg" alt="img" />
+        </div>
+
+        <div class="card__content">
+          <div class="blog__details">
+            <div class="icon__text">
+              <span class="icon"
+                ><i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+              </span>
+              <span class="text">09/05/2020</span>
+            </div>
+            <div class="icon__text">
+              <span class="icon"
+                ><i class="fa fa-heart-o" aria-hidden="true"></i
+              ></span>
+              <span class="text">230</span>
+            </div>
+            <div class="icon__text">
+              <span class="icon"
+                ><i class="fa fa-user-circle" aria-hidden="true"></i
+              ></span>
+              <span class="text">AkshayMore</span>
+            </div>
+          </div>
+
+          <h2 class="blog__title">Traveling during Pandemic</h2>
+
+          <p class="excerpt">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente
+            saepe quisquam voluptas consectetur eos. Pariatur et incidunt
+            numquam aliquam obcaecati voluptas a fugit illum, doloremque veniam
+            maxime sequi nisi iure eveniet eum enim. Delectus, saepe.
+          </p>
+
+          <div class="blog__cda">
+            <a class="button">Read more</a>
+
+            <button class="share__button">
+              <i class="fa fa-share-alt" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- card5 -->
+      <div class="card">
+        <div class="card__image">
+          <img src="./img/youtubealgo.jpg" alt="img" />
+        </div>
+
+        <div class="card__content">
+          <div class="blog__details">
+            <div class="icon__text">
+              <span class="icon"
+                ><i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+              </span>
+              <span class="text">09/05/2020</span>
+            </div>
+            <div class="icon__text">
+              <span class="icon"
+                ><i class="fa fa-heart-o" aria-hidden="true"></i
+              ></span>
+              <span class="text">230</span>
+            </div>
+            <div class="icon__text">
+              <span class="icon"
+                ><i class="fa fa-user-circle" aria-hidden="true"></i
+              ></span>
+              <span class="text">AkshayMore</span>
+            </div>
+          </div>
+
+          <h2 class="blog__title">How the YouTube Algorithm RUINS Your Life</h2>
+
+          <p class="excerpt">
+            How The YouTube Algorithm RUINS Your Life 🤬 (And How You Can Escape
+            It). Don't want to let Facebook, YouTube, and Twitter decide what
+            you see?But the government fed these numbers into an algorithm
+            alongside the ... to think about shadowy government algorithms
+            running or ruining our lives.....
+          </p>
+
+          <div class="blog__cda">
+            <a class="button">Read more</a>
+
+            <button class="share__button">
+              <i class="fa fa-share-alt" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- card6 -->
+      <div class="card">
+        <div class="card__image">
+          <img src="./img/indmedia2.jpg  " alt="img" />
+        </div>
+
+        <div class="card__content">
+          <div class="blog__details">
+            <div class="icon__text">
+              <span class="icon"
+                ><i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+              </span>
+              <span class="text">19/06/2020</span>
+            </div>
+            <div class="icon__text">
+              <span class="icon"
+                ><i class="fa fa-heart-o" aria-hidden="true"></i
+              ></span>
+              <span class="text">1.5m</span>
+            </div>
+            <div class="icon__text">
+              <span class="icon"
+                ><i class="fa fa-user-circle" aria-hidden="true"></i
+              ></span>
+              <span class="text">Prathmesh</span>
+            </div>
+          </div>
+
+          <h2 class="blog__title">
+            Why Is Indian News So BAD? 🤮| The TRUTH About Indian News Media
+          </h2>
+
+          <p class="excerpt">
+            He was clear that 'objectivity was of less importance than the
+            truth' and 'the ... There are other reasons why the buoyancy of the
+            Indian news media ... of the 'future of journalism' have not ceased;
+            and poor morale and low .....
+          </p>
+
+          <div class="blog__cda">
+            <a class="button">Read more</a>
+
+            <button class="share__button">
+              <i class="fa fa-share-alt" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- card7 -->
+      <div class="card">
+        <div class="card__image">
+          <img src="./img/socmedact.jpg" alt="img" />
+        </div>
+
+        <div class="card__content">
+          <div class="blog__details">
+            <div class="icon__text">
+              <span class="icon"
+                ><i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+              </span>
+              <span class="text">10/01/2020</span>
+            </div>
+            <div class="icon__text">
+              <span class="icon"
+                ><i class="fa fa-heart-o" aria-hidden="true"></i
+              ></span>
+              <span class="text">563</span>
+            </div>
+            <div class="icon__text">
+              <span class="icon"
+                ><i class="fa fa-user-circle" aria-hidden="true"></i
+              ></span>
+              <span class="text">Prathmesh</span>
+            </div>
+          </div>
+
+          <h2 class="blog__title">The Problem With SOCIAL MEDIA ACTIVISM 🤦🏻‍♀️</h2>
+
+          <p class="excerpt">
+            Scrolling through Instagram or Facebook during the holidays is
+            typically quite predictable. Posts of family, vacations, great food,
+            amazing views and the like. This year, however, something seems to
+            have snapped......
+          </p>
+
+          <div class="blog__cda">
+            <a class="button">Read more</a>
+
+            <button class="share__button">
+              <i class="fa fa-share-alt" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- card8 -->
+      <div class="card">
+        <div class="card__image">
+          <img src="./img/socialdillima.jpg" alt="img" />
+        </div>
+
+        <div class="card__content">
+          <div class="blog__details">
+            <div class="icon__text">
+              <span class="icon"
+                ><i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+              </span>
+              <span class="text">09/05/2020</span>
+            </div>
+            <div class="icon__text">
+              <span class="icon"
+                ><i class="fa fa-heart-o" aria-hidden="true"></i
+              ></span>
+              <span class="text">230</span>
+            </div>
+            <div class="icon__text">
+              <span class="icon"
+                ><i class="fa fa-user-circle" aria-hidden="true"></i
+              ></span>
+              <span class="text">Prathmesh</span>
+            </div>
+          </div>
+
+          <h2 class="blog__title">
+            The Social Dilemma REVIEW - This Will Make You Quit Social Media 👩🏻‍💻
+          </h2>
+
+          <p class="excerpt">
+            This Documentary Will Make You Deactivate Your Social Media. The
+            Social Dilemma may finally convince you that we're being watched,
+            ... with everything in between: get the entertainment industry's
+            must-read newsletter.......
+          </p>
+
+          <div class="blog__cda">
+            <a class="button">Read more</a>
+
+            <button class="share__button">
+              <i class="fa fa-share-alt" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br /><br /><br />
+
+    <!-- Footer -->
+    <footer>
+      <div class="columns is-mobile">
+        <div class="column">
+          <p>© akshaymore | Web Developer</p>
+        </div>
+        <div class="column">
+          <ul class="list-unstyled">
+            <li>
+              <a> Terms of Use </a>
+            </li>
+            <li>
+              <a> Privacy Policy </a>
+            </li>
+          </ul>
+        </div>
+        <div class="column">
+          <ul class="list-unstyled">
+            <li>
+              <a href="https://www.instagram.com/theakshay__/" target="_blank">
+                Instagram
+              </a>
+            </li>
+
+            <li>
+              <a href="https://twitter.com/thisIsAkshayz" target="_blank">
+                Twitter
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://www.linkedin.com/in/akshay-more-275616177/"
+                target="_blank"
+              >
+                Linkedin
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <!-- js Links -->
+    <script src="script.js"></script>
+  </body>
+</html>
