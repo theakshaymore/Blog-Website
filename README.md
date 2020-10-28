@@ -1,3 +1,3 @@
 # Blog-Website
   You can find live here-
- [IT-Services](https://it-solutions.netlify.app/).
+ [developedbyam](https://developedbyam.netlify.app/).
